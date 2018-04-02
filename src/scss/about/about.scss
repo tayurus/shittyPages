@@ -1,0 +1,106 @@
+.about{
+    background-color: #edf0ff;
+    padding: 100px 0px 70px 0px;
+}
+
+.about__carousel{
+    max-width: 1400px;
+    margin: 0px auto;
+}
+
+.about__title{
+    text-align: center;
+    color: #030303;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 10px;
+    text-transform: uppercase;
+    margin: 0px;
+    margin-bottom: 70px;
+}
+
+.about__item{
+    width: 570px;
+    padding: 40px;
+    box-shadow: 0 2px 7px rgba(21, 22, 23, 0.22);
+    background-color: #fcfcfd;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+
+.about__item-name{
+    color: #030303;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #485690;
+    margin-bottom: 30px;
+}
+
+.about__item-title{
+    color: #030303;
+    font-family: Montserrat;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.about__item-text{
+    font-family: Montserrat;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.about__item-more{
+    color: #0f2b5d;
+    font-family: Montserrat;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.about .owl-next{
+    position: absolute;
+    right: 1%;
+    top: 27%;
+    width: 13px;
+    height: 20px;
+    background: url("../images/sprites/png/about-right.png") no-repeat center / cover !important;
+    outline: none;
+}
+
+.about .owl-next span, .about .owl-prev span{
+    font-size: 0px !important;
+}
+
+.about .owl-prev{
+    position: absolute;
+    left: 1%;
+    top: 27%;
+    width: 13px;
+    height: 20px;
+    background: url("../images/sprites/png/about-left.png") no-repeat center / cover !important;
+    outline: none;
+}
+
+.about .owl-dot.active span{
+    background-color: #161f44 !important;
+}
+
+.about .owl-dot{
+    outline: none !important;
+}
+
+@media (max-width:1305px),(max-device-width:1305px) {
+    .about__item{
+        width: 400px;
+    }
+}
+@media (max-width:985px),(max-device-width:985px) {
+    .about__item{
+        width: 80%;
+    }
+}
